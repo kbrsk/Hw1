@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*::before, *:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus, :active {outline: none;}
+a:focus, a:active {outline: none;}
+
+nav, footer, header, aside {display: block;}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input, button, textarea {font-family :inherit;}
+
+input::-ms-clear {display: none;}
+button {cursor: pointer;}
+button ::-moz-focus-inner {padding: 0; border: 0;}
+a,a:visited {text-decoration: none;}
+a:haver {text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6 {font-size: inherit;font-weight: 400;}
+
+/* ---------------------------------- null ---------------------------------- */
+
+.main{
+    width: 1440px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E7E9FC;
+    margin: 0 auto;
+}
+
+.content{
+    width: 1128px;
+    margin: 0 auto;
+}
+
+.header_logo_text{
+    display: inline-block;
+}
+
+.header_one_two li{
+    display: inline-block;
+}
+
+.header_two p{
+    display: inline-block;
+}
+
+.logo_text_span1, .logo1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4D5AE5;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.header_logo_text:hover:active:focus{
+    text-decoration: none;
+}
+
+.logo_text_span2, .logo2{
+    color: #2E2F42;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.header_pages_1 a{
+    font-style: 16px;
+    color: #2E2F42;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
+.header_ul{
+    display: flex;
+    gap: 40px;
+}
+
+.header_one{
+    display: flex;
+    gap: 76px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+}
+
+.header_mail{
+    font-size: 16px;
+    color: #434455;
+    font-family: 'Roboto';
+}
+
+.header_tel{
+    font-size: 16px;
+    color: #434455;
+    font-family: 'Roboto';
+    margin-left: 40px;
+}
+
+/* ------------------------------------ 1 ----------------------------------- */
+
+.block_one{
+    background: #2E2F42;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block_one_one{
+    text-align: center;
+}
+
+.block_one_text{
+    font-size: 56px;
+    color: white;
+    line-height: 60px;
+    width: 500px;
+    text-align: center;
+}
+
+.block_one_button{
+    padding-top: 48px;
+}
+
+.one_button{
+    width: 169px;
+    height: 56px;
+    background: #4D5AE5;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* ------------------------------------ 2 ----------------------------------- */
+.block_two{
+    height: 344px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block_two_ul{
+    display: flex;
+    gap: 24px;
+}
+.block_two_ul li{
+    width: 264px;
+}
+
+.block_two_ul h1{
+    font-style: 20px;
+    color: #2E2F42;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.block_two_ul p{
+    font-style: 16px;
+    color: #434455;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: left;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                      3                                     */
+/* -------------------------------------------------------------------------- */
+
+.block_three_text h1 {
+    font-size: 36px;
+    line-height: 40px;
+    color: #2E2F42;
+    font-weight: 700;
+    text-align: center;
+}
+
+.block_three_img{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 72px 0px 120px 0px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                      4                                     */
+/* -------------------------------------------------------------------------- */
+
+
+.block_four{
+    background-color: #F4F4FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 732px;
+}
+
+.block_four_text{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    padding-bottom: 72px;
+}
+
+.block_four_ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.four_ul_inf{
+    background-color: #fff;
+}
+
+.four_ul_inf h2{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #2E2F42;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.four_ul_inf p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #434455;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   footer                                   */
+/* -------------------------------------------------------------------------- */
+
+footer{
+    background-color: #2E2F42;
+    height: 312px;
+    display: flex;
+    align-items: center;
+}
+
+.footer_text{
+    color: #F4F4FD;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    width: 264px;
+    height: 72px;
+    text-align: left;
+}
+
+.footer_logo{
+    margin-bottom: 17.5px;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 800;
+    color: #F4F4FD;
+}
+.logo3{
+    color: #F4F4FD;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                  PORTFOLIO                                 */
+/* -------------------------------------------------------------------------- */
+.por_one_two_pages_link{
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 24px;
+    color: #2E2F42;
+}
+
+.por_one_two_ul li{
+    display: inline-block;
+}
+.por_one_two_pages_link{
+    display: flex;
+    gap: 40px;
+}
+.por_one{
+    display: flex;
+    gap: 76px;
+}
+.por_two{
+    display: flex;
+    gap: 40px;
+}
+
+.por_two p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434455;
+}
+
+.header_por{
+    display: flex;
+    justify-content: space-around;
+}
